@@ -20,15 +20,22 @@
             theme: {
                 extend: {
                     colors: {
-                        'btn_primary': '#E76F51',
-                        'banner': 'rgba(231, 111, 81, 0.10)',
+                        btn_primary: '#E76F51',
+                        banner: 'rgba(231, 111, 81, 0.10)',
+                        color_1: '#0A0826',
+                        color_2: '#18191F',
+                        color_3: '#6C6C6C',
+                        color_4: '#252B42',
                     },
                     height: {
                         'banner_height': '480px',
                     },
-                    // width: {
-                    //     'banner_img_width': "485px"
-                    // }
+                    fontSize: {
+                        small: '14px',
+                    },
+                    boxShadow: {
+                        custom: "0px 0px 4px rgba(0, 0, 0, 0.15)",
+                    }
                 }
             }
         }
@@ -81,9 +88,11 @@
                         <div class="hero-content flex-col lg:flex-row-reverse px-4 pt-9 gap-16 md:px-16">
                             <img src="images/slider/bike1.png" class="rounded-lg pb-10" />
                             <div>
-                                <h1 class="text-4xl md:text-6xl xl:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
-                                <p class="py-6 font-light">Amet minim mollit non deserunt ullamco 
-                                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                <h1 class="text-4xl md:text-6xl xl:text-6xl font-bold">Ride-on R15 V4 <br> with Smile
+                                </h1>
+                                <p class="py-6 font-light">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
                                 <button class="btn bg-btn_primary px-8 py-4 rounded-md">Purchase</button>
                             </div>
                         </div>
@@ -98,9 +107,11 @@
                         <div class="hero-content flex-col lg:flex-row-reverse px-4 pt-9 gap-16 md:px-16">
                             <img src="images/slider/bike2.png" class="rounded-lg pb-10" />
                             <div>
-                                <h1 class="text-4xl md:text-6xl xl:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
-                                <p class="py-6 font-light">Amet minim mollit non deserunt ullamco 
-                                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                <h1 class="text-4xl md:text-6xl xl:text-6xl font-bold">Ride-on R15 V4 <br> with Smile
+                                </h1>
+                                <p class="py-6 font-light">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
                                 <button class="btn bg-btn_primary px-8 py-4 rounded-md">Purchase</button>
                             </div>
                         </div>
@@ -115,9 +126,11 @@
                         <div class="hero-content flex-col lg:flex-row-reverse px-4 pt-9 gap-16 md:px-16">
                             <img src="images/slider/bike3.png" class="rounded-lg pb-10" />
                             <div>
-                                <h1 class="text-4xl md:text-6xl xl:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
-                                <p class="py-6 font-light">Amet minim mollit non deserunt ullamco 
-                                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                <h1 class="text-4xl md:text-6xl xl:text-6xl font-bold">Ride-on R15 V4 <br> with Smile
+                                </h1>
+                                <p class="py-6 font-light">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
                                 <button class="btn bg-btn_primary px-8 py-4 rounded-md">Purchase</button>
                             </div>
                         </div>
@@ -132,9 +145,11 @@
                         <div class="hero-content flex-col lg:flex-row-reverse px-4 pt-9 gap-16 md:px-16">
                             <img src="images/slider/bike4.png" class="pb-10 rounded-lg" />
                             <div>
-                                <h1 class="text-4xl md:text-6xl xl:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
-                                <p class="py-6 font-light">Amet minim mollit non deserunt ullamco 
-                                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                <h1 class="text-4xl md:text-6xl xl:text-6xl font-bold">Ride-on R15 V4 <br> with Smile
+                                </h1>
+                                <p class="py-6 font-light">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
                                 <button class="btn bg-btn_primary px-8 py-4 rounded-md">Purchase</button>
                             </div>
                         </div>
@@ -147,7 +162,129 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="px-5 pt-5 lg:px-24 xl:px-40 xl:pt-10">
+        <section class="mt-14">
+            <div class="text-center" style="font-size: 14px;">
+                <h1 class="text-3xl md:text-5xl font-semibold">Featured Bikes In This Year</h1>
+                <p class="text-btn_primary font-semibold text-small">Best bike collection</p>
+            </div>
+            <div class="flex flex-col justify-center items-center gap-y-8 md:flex-row md:justify-between mt-10">
+                <img src="images/others/feature-bike.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
+            </div>
+        </section>
+        <section class="mt-20">
+            <div class="text-center text-color_1 text-3xl md:text-5xl font-semibold">
+                <h1>Latest News</h1>
+            </div>
+            <div class="my-7 gap-y-5 md:my-5 md:flex md:flex-row md:mt-10 md:justify-between md:gap-x-10">
+                <div class="card card-compact w-96 bg-base-100 shadow-custom p-5 rounded-md">
+                    <figure><img src="images/others/latest1.png" alt="" /></figure>
+                    <div class="">
+                        <h2 class="card-title mt-10 text-2xl text-color_2">Ducati XDIAVEL S-73</h2>
+                        <p class="mb-10 mt-3 text-color_3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <div class="card-actions">
+                            <button
+                                class="btn bg-white rounded-md border-btn_primary text-btn_primary hover:bg-btn_primary hover:text-white">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-custom p-5 rounded-md">
+                    <figure><img src="images/others/latest2.png" alt="" /></figure>
+                    <div class="">
+                        <h2 class="card-title mt-10 text-2xl text-color_2">Motorcycles & Scooters</h2>
+                        <p class="mb-10 mt-3 text-color_3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <div class="card-actions">
+                            <button
+                                class="btn bg-white rounded-md border-btn_primary text-btn_primary hover:bg-btn_primary hover:text-white">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-custom p-5 rounded-md">
+                    <figure><img src="images/others/latest3.png" alt="" /></figure>
+                    <div class="">
+                        <h2 class="card-title mt-10 text-2xl text-color_2">2021 Honda CBR500R</h2>
+                        <p class="mb-10 mt-3 text-color_3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <div class="card-actions">
+                            <button
+                                class="btn bg-white rounded-md border-btn_primary text-btn_primary hover:bg-btn_primary hover:text-white">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-24">
+            <div class="text-center text-color_1 text-3xl md:text-5xl font-semibold">
+                <h1>Happy <span class="text-btn_primary">Clients says</span></h1>
+            </div>
+            <div class="mt-12 flex flex-col gap-y-5 md:flex md:flex-row md:justify-between md:gap-x-11">
+                <div class="card w-96 bg-base-100 shadow-custom rounded-md">
+                    <figure class="px-10 pt-10">
+                        <img src="images/others/user-1.png" alt="Shoes" class="rounded-xl w-[150px]" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <p>ISlate helps you see how many more days you need to work to reach your financial goal for the
+                            month and year.</p>
+                        <div class="rating my-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400"
+                                checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400" />
+                        </div>
+                        <h6 class="text-sm font-semibold text-[#23A6F0]">Regina Miles</h6>
+                        <h6 class="text-sm font-semibold text-color_4 my-4">Banker</h6>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-custom rounded-md">
+                    <figure class="px-10 pt-10">
+                        <img src="images/others/user-2.png" alt="Shoes" class="rounded-xl w-[150px]" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <p>ISlate helps you see how many more days you need to work to reach your financial goal for the
+                            month and year.</p>
+                        <div class="rating my-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400"
+                                checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400" />
+                        </div>
+                        <h6 class="text-sm font-semibold text-[#23A6F0]">Regina Miles</h6>
+                        <h6 class="text-sm font-semibold text-color_4 my-4">Banker</h6>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-custom rounded-md">
+                    <figure class="px-10 pt-10">
+                        <img src="images/others/user-3.png" alt="Shoes" class="rounded-xl w-[150px]" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <p>ISlate helps you see how many more days you need to work to reach your financial goal for the
+                            month and year.</p>
+                        <div class="rating my-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400"
+                                checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 h-[22px] bg-orange-400" />
+                        </div>
+                        <h6 class="text-sm font-semibold text-[#23A6F0]">Regina Miles</h6>
+                        <h6 class="text-sm font-semibold text-color_4 my-4">Banker</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     <footer>
 
